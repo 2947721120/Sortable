@@ -10,7 +10,7 @@ module.exports = function (grunt) {
 			},
 			cdn: {
 				options: {
-					prefix: '(cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/Sortable|cdn\\.jsdelivr\\.net\\/sortable)\\/',
+					prefix: '(cdnjs\\.c2cbc\\.com\\/ajax\\/libs\\/Sortable|cdn\\.jsdelivr\\.net\\/sortable)\\/',
 					replace: '[0-9\\.]+'
 				},
 				src: ['README.md']
